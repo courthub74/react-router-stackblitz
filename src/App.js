@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Home from './components/Home';
 import About from './components/About';
+import Catalog from './components/Catalog';
 import Nav from './components/Nav';
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
           <Nav />
           <Route path="/" component={Home}></Route>
           <Route path="/about" component={About}></Route>
+          <Route path="/catalog/:user/:msg" component={Catalog}></Route>
         </Switch>
       </div>
     </Router>
