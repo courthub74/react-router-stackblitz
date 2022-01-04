@@ -6,6 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Nav from './components/Nav';
 import Post from './components/Post';
+import Catalog from './components/Catalog';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/" exact component={Home}></Route>
           <Route path="/Post" component={Post}></Route>
           <Route path="/About" component={About}></Route>
+          <Route path="/Catalog" component={Catalog}></Route>
         </Switch>
       </div>
     </Router>

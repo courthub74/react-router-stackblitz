@@ -6,7 +6,8 @@ export default function Nav() {
     <nav className="navi">
       <Link to="/About">ABOUT | </Link>
       <Link to="/Post">POST | </Link>
-      <Link to="/">BACK TO HOME</Link>
+      <Link to="/">BACK TO HOME |</Link>
+      <Link to="/Catalog">CATALOG</Link>
     </nav>
   );
 }
